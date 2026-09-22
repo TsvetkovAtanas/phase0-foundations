@@ -1,0 +1,6 @@
+Item,Material,CostPerUnit
+Wall,Concrete,150
+Floor,Wood,100
+Roof,Tile,w00
+Toilet,Gold,999
+Toilet,Gold,999

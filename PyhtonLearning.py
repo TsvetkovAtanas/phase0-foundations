@@ -162,7 +162,7 @@
 
 
 
-# #exersice 2
+# # #exersice 2
 
 
 # def password_checker(password):
@@ -201,14 +201,88 @@
 
 
 
-#excersice factorial
+# #excersice factorial
 
-def factorial(number, total=1):
-    if number <= 0:
-        return total
+# def factorial(number, total=1):
+#     if number <= 0:
+#         return total
 
-    total *= number
-    return factorial(number - 1, total)
+#     total *= number
+#     return factorial(number - 1, total)
 
 
-print(factorial(5))
+# print(factorial(5))
+
+
+#
+##
+###
+# filename = 'exampleFile.txt'
+# with open(filename, 'r') as file:
+#     content = file.read()
+#     #print(content)
+
+#     for n, line in enumerate(content.splitlines()):
+#         print(n, line)
+
+# filename = 'exampleFile.txt'
+# with open(filename, 'a') as file:
+#      file.write('Bigger \n Bigger')
+
+
+
+# import csv
+# import  os
+
+# filename = "exampleCSV.txt"
+# # if not os.path.exists(filename):
+# #     print(f"Creating a file with the name: {filename}")
+# #     with open(filename, 'w') as file:
+# #         file.write('Item,Material,CostPerUnit\n')
+# #         file.write('Wall,Concrete,150\n')
+# #         file.write('Floor,Wood,100\n')
+# #         file.write('Roof,Tile,w00\n')
+# # else:
+# #     with open(filename, 'r') as file:
+# #         reader = csv.reader(file)
+# #         for row in reader:
+# #             print(row)
+
+
+# with open(filename, 'a', newline='') as file:
+#     writer = csv.writer(file)
+#     writer.writerow(['Toilet', 'Gold', '999'])
+
+
+
+# import json
+
+# with open('exmapleJSON.json', 'r') as file:
+#     # print(file.read())
+
+#     data = json.load(file)
+#     print(data)
+
+#     mats = data['materials']
+#     for mat in mats:
+# #         print(mat)
+
+
+
+# def romanToInt(s: str) -> int:
+#         roman_dict = {'I':1, 'V':5, 'X':10, 'L':50, 'C':100, 'D':500, 'M':1000}
+#         result = 0
+#         for i in range(len(s)):
+#             if i == len(s):
+#                 if roman_dict[s[i]] <= roman_dict[s[i-1]]:
+#                     result += roman_dict[s[i]]
+#                 else:
+#                     result -= roman_dict[s[i]]
+#             else:
+#                 if roman_dict[s[i]] >= roman_dict[s[i+1]]:
+#                     result += roman_dict[s[i]]
+#                 else:
+#                     result -= roman_dict[s[i]]
+#         return result
+
+# romanToInt("III")
