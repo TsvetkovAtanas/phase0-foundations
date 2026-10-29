@@ -1,0 +1,4 @@
+Employee: Alex Morgan
+Gross pay: 1000.00
+Tax deduction: 200
+Net pay: 800.00
